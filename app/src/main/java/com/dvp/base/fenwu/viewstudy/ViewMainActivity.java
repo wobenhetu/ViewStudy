@@ -2,6 +2,7 @@ package com.dvp.base.fenwu.viewstudy;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class ViewMainActivity extends AppCompatActivity
 {
@@ -11,5 +12,8 @@ public class ViewMainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_main);
+
+        View view = new View(this);
+
     }
 }
